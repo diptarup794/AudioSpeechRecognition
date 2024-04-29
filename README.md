@@ -13,6 +13,17 @@ The Gramvaani dataset is a large-scale open-source dataset designed for Indian l
 - **Structure**: 
   - Audio files in WAV format.
   - Transcripts in text files.
+ gramvaani/
+├── testsets/
+│   ├── gramvaani/
+│   │   ├── wavs/          
+│   │   │   ├── 01-00004-02.wav
+  │   │   │   ├── 01-00005-03.wav
+│   │   │   └── ...
+│   │   ├── text          
+│   │   └── ...
+├── ...
+   
 - **Availability**: Publicly available on Zenodo [here](https://asr.iitm.ac.in/Gramvaani/NEW/GV_Eval_3h.tar.gz).
 
 ### 2.2 Kathbath Dataset
@@ -21,6 +32,25 @@ The Kathbath dataset contains audio recordings and transcripts in Hindi. It migh
 - **Content**: Audio recordings and corresponding text transcripts in Hindi.
 - **Structure**: 
   - Audio and transcript folders, with data in multiple Indian languages.
+ 
+    Audio Data
+data
+├── bengali
+│   ├── <split_name>
+│   │   ├── 844424931537866-594-f.m4a
+│   │   ├── 844424931029859-973-f.m4a
+│   │   ├── ...
+├── gujarati
+├── ...
+
+Transcripts
+data
+├── bengali
+│   ├── <split_name>
+│   │   ├── transcription_n2w.txt
+├── gujarati
+├── ...
+
 - **Availability**: [Google Drive Link](https://drive.google.com/drive/folders/1veTfb45_jG1JItYyE_tkc6M7Lk98ic3J?usp=share_link).
 
 ## 3. Code Walkthrough
